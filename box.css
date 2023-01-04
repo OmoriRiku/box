@@ -1,7 +1,49 @@
 @charset "UTF-8";
 
+* {
+    box-sizing: border-box;
+}
+
 .box1 {
     width: 300px;
     height: 300px;
-    background-color: red;
+    background-color: #ff0000;
+    margin-bottom: 30px;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* 指定方法 (box2の周囲全てに枠線を設定する場合) */
+    border: 5px solid yellow;
+}
+
+.box3 {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.box3_border {
+    width: 20%;
+    height: 60px;
+    background-color: #dfff00;
+    border: 0 solid black;
+}
+
+.border-top-width {
+    border-top-width: 5px;
+}
+
+.border-right-width {
+    border-right-width: 5px;
+}
+
+.border-left-width {
+    border-left-width: 5px;
+}
+
+.border-bottom-width {
+    border-bottom-width: 5px;
 }
